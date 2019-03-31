@@ -1,0 +1,42 @@
+what is a version control system 
+why do we need vcs
+attributes of vcs
+	common codebase
+	revision history
+	authentication and authorization
+Types of version control systems
+	Centralized version control systems
+	  SVN, perforce
+	Distribured VCS
+	  Git, Mercurial
+
+Advantages of Distributed VCS
+	Speed
+	Local branches
+	Non linear development
+
+Git
+  initializing git repository
+  git life cycle
+  basic git commands
+    git config
+    git add 
+    git commit
+    git status
+
+  branching in git
+  	git branch
+  	git checkout
+  	git merge
+  Working with remote repository
+  	creating account on GitHub
+  	configuring remote repository
+  	git push 
+  	git clone
+  	git pull
+    
+Heroku
+   Why we need Heroku
+   Difference between PAAS, IAAS and SAAS
+   Creating Heroku account
+   Deploying codebase on Heroku 
