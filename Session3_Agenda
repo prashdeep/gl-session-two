@@ -5,6 +5,9 @@
 	   git commit
 	   git push
  Git commands
+    git diff - To check the diff working - repository
+    git checkout -- filename - to undo the changes
+    git commit -am "message" - to bypass the staging area
  	git clone
  	git push
  	git pull	 
