@@ -1,0 +1,41 @@
+1. Git commands walkthrough
+	   git init
+	   git config
+	   git add
+	   git commit
+	   git push
+ Git commands
+ 	git clone
+ 	git push
+ 	git pull	 
+2. Git conflicts resolution
+     git working without conflicts
+     git working with conflicts
+3. Git branch opearation
+     creating local branches in git
+     git branch
+     git checkout 
+     git branch -d
+     git branch -D
+     git merge
+
+html and css
+  border properties
+
+Form
+  input fields
+     text, placeholder
+     password
+     email
+  select
+  checkbox
+  radio button
+  drop down       
+  file attachment
+  fieldset
+  label
+
+ implementing login form and signup form
+
+
+ 

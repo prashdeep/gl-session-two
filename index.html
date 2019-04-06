@@ -27,10 +27,11 @@
 		<h1>See what's happenning in the world right now</h1>
 		<h2>Join Twitter today.</h2>
 
-		<button>CLick Me</button>
+		<!--<button>CLick Me</button>-->
 		<a class="button" href="#" onclick="displaySignUp()">Sign Up</a>
 		<a class="button" href="#"  onclick="displayLogin()">Log in</a>
 	</section>
+
 	
 	<footer>
 
@@ -39,7 +40,7 @@
 		<a href="#">Blog</a> |
 		<a href="#">Status</a> |
 	</footer>
-	<div id="singup" class="modal" style="display: none">
+	<div id="singup" class="modal" style="display:none">
 		<div class="modal-content">
 		    <h2 class="modal-heading">Sign up to Twitter</h2>
 		     <span class="close" onclick="closeDialog()">X</span>
@@ -47,15 +48,7 @@
 		    	<div>
 		    		<img src="img/profile.png">
 		    	</div>
-		    	<form>
-		    		<input type="text" name="username" placeholder="User name">
-		    		<input type="text" name="username" placeholder="Email address">
-		    		<input type="password" name="password" placeholder="Password">
-		    		<input type="password" name="confirmPassword" placeholder="Confirm Password">
-
-		    		<br/>
-		    		<a class="btn" href="#">Next</a>
-		    	</form>
+		    	
 		    </div>
 		</div>
 		
@@ -65,11 +58,11 @@
 		    <h2 class="modal-heading">Log in to Twitter</h2>
 		    <span class="close" onclick="closeDialog()">X</span>
 		    <div class="modal-body">
-		    	<form>
+		    	<form action="home.html" method="post">
 		    		<input type="text" name="email" placeholder="Email Address">
 		    		<input type="text" name="password" placeholder="Password">
 		    		<br/>
-		    		<a class="btn login" href="#">Log in</a>
+		    		<button type="submit" class="btn login">Log in</button>
 		    	</form>
 		    </div>
 		</div>
